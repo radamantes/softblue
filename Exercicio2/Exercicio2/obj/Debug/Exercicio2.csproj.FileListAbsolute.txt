@@ -1,0 +1,5 @@
+D:\Softblue\Projetos\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe.config
+D:\Softblue\Projetos\Exercicio2\Exercicio2\bin\Debug\Exercicio2.exe
+D:\Softblue\Projetos\Exercicio2\Exercicio2\bin\Debug\Exercicio2.pdb
+D:\Softblue\Projetos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.exe
+D:\Softblue\Projetos\Exercicio2\Exercicio2\obj\Debug\Exercicio2.pdb
