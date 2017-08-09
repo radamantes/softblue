@@ -10,6 +10,7 @@ namespace Ponto2D_e_3D
   {
     private double z;
 
+    
     public Ponto3D(double x, double y, double z) : base(x, y)
     {
       this.z = z;
