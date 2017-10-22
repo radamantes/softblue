@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Cantores>
+  <Cantor>
+    <Nome>Elvis Presley</Nome>
+    <DataNascimento>01/08/1935</DataNascimento>
+  </Cantor>
+  <Cantor>
+    <Nome>John Lennon</Nome>
+    <DataNascimento>09/10/1940</DataNascimento>
+  </Cantor>
+  <Cantor>
+    <Nome>Stevie Wonder</Nome>
+    <DataNascimento>13/05/1950</DataNascimento>
+  </Cantor>
+  <Cantor>
+    <Nome>James Brown</Nome>
+    <DataNascimento>03/05/1933</DataNascimento>
+  </Cantor>
+  <Cantor>
+    <Nome>Bob Dylan</Nome>
+    <DataNascimento>03/05/1933</DataNascimento>
+  </Cantor>
+</Cantores>
