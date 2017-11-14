@@ -1,0 +1,43 @@
+<Window x:Class="ExercicioWPFTelas.CaixaTexto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExercicioWPFTelas"
+        mc:Ignorable="d"
+        Title="CaixaTexto" Height="513.045" Width="620">
+  <DockPanel>
+    <StatusBar DockPanel.Dock="Bottom">
+      <TextBlock x:Name="statusBar" Text="C# - Softblue" MouseEnter="txtBlock_MouseEnter" MouseLeave="txtBlock_MouseLeave"/>
+    </StatusBar>
+
+    <Menu DockPanel.Dock="Top" VerticalAlignment="Top" Padding="0,5,0,5">
+      <MenuItem Header="_Arquivo">
+        <MenuItem Name="mnuSair" Header="_Sair" Click="mnuSair_Click"/>
+      </MenuItem>
+    </Menu>
+
+    <!--abaixo do menu criei um grid-->
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="*"/>
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+
+      <!--caixa de texto localizado na coluna 0-->
+      <TextBox x:Name="txtBoxDigitado" Grid.Row="0" Grid.Column="0" Margin="5,5,5,5" TextChanged="txtBoxDigitado_TextChanged" AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+
+      <!--caixa de texto localizado na coluna 1-->
+      <TextBox x:Name="txtBoxLeitura" Grid.Row="0" Grid.Column="1" Margin="5,5,5,5" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+
+    </Grid>
+
+  </DockPanel>
+
+
+
+</Window>
